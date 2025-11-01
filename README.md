@@ -1,4 +1,4 @@
-# Project Timeline Gantt Chart Generator
+# Multi Project Excel To Gantt
 
 A powerful Python script that generates interactive, professional Gantt charts from CSV data using Plotly. Perfect for project managers, teams, and anyone needing to visualize project timelines and task dependencies.
 
