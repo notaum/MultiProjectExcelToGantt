@@ -34,3 +34,21 @@ cd gantt-chart-generator
 
 # Install dependencies
 pip install pandas plotly
+```
+### Usage
+After install you can run the script with
+```bash
+python chart.py input.csv
+```
+### Extra Options
+There are a few extra command line options you can include
+| Argument | Description |
+|--------|-------------|
+|`--dark`| Generates the graph in dark mode |
+|`30` | Height of the rows is 30% bigger, you can use any integer|
+
+So you can do 
+```bash
+python chart.py input.py 50
+```
+To get a chart with 50% larger rows!
