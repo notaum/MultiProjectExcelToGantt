@@ -26,17 +26,25 @@ The repository contains four specialized scripts for different Gantt chart needs
 ## Quick Start
 
 ### Installation
-
+Getting the files:
 ```bash
 # Clone the repository
 git clone https://github.com/notaum/MultiProjectExcelToGantt.git
-mv MultiProjectExcelToGantt ganttGenerator
-cd ganttGenerator
+cd MultiProjectExcelToGantt
 ```
-Python Venv with all the required modules is shiped with the project. You just need to source it with
+Install dependencies in a virtual env in the folder with
+NOTE: with this method you will need to run `source .venv/bin/activate` within the MultiProjectExcelToGantt folder every time you want to use the scripts.
 ```bash
+python -m venv .venv
 source .venv/bin/activate
+pip install plotly pandas
 ```
+Or just pip install globally
+
+```bash
+pip install pandas plotly
+```
+
 ### Usage
 After install you can run the script with
 ```bash
