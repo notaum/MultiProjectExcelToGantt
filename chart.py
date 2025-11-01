@@ -265,7 +265,8 @@ try:
     fig.show()
 
     # Export to HTML
-    output_file = f'gantt_chart{output_suffix}.html'
+    outputname = str(sys.argv[1])
+    output_file = f'{outputname}{output_suffix}.html'
     fig.write_html(output_file, include_plotlyjs='cdn')
     print(f"Chart exported to {output_file}")
 except FileNotFoundError:
